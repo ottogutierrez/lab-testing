@@ -5,11 +5,15 @@
   "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build src/index.js"
+  },
+  "resolutions": {
+    "styled-components":"^5"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
